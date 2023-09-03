@@ -1,0 +1,184 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+nav{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #006F44;
+    color: #FEC401;
+    padding: 20px 15px;
+    gap: 20px;
+
+}
+
+nav :hover{
+    color: yellow;
+}
+
+nav img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+main{
+    margin: 25px 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+main>h2{
+
+    color: #006F44;
+    margin: 35px 0px;
+}
+
+#categories{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 45px;
+    color: yellow;
+
+}
+
+
+#categories div{
+    height: 150px;
+    width: 150px;
+    position: relative;
+    border-radius: 50%;
+}
+
+#categories img{
+
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    border-radius: inherit;
+    opacity: 70%;
+}
+
+#categories h3{
+
+    position: absolute;
+    top: 60px;
+    left: 37px;
+    z-index: 1;
+    font-weight: bold;
+    font-size: 22px;
+
+}
+
+
+footer {
+    max-width: 100%;
+    height: 25vh;
+    margin-top: auto;
+    background-color: #006F44;
+    color: #FEC401;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-weight: bold;
+    padding: 0px 20px;
+}
+
+footer li {
+
+    list-style: none;
+}
+
+footer li a {
+    text-decoration: none;
+    color: inherit;
+}
+
+footer li a:hover {
+
+    color: yellow;
+}
+
+footer div {
+    display: flex;
+    align-items: center;
+}
+
+footer img {
+    height: 23px;
+    width: 60px;
+}
+
+
+/* recipies */
+
+#recipies{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+    flex-wrap: wrap;
+    width: 90vw;
+    margin-top: 70px;
+}
+
+.card{
+    border: solid gray;
+    width: 325px;
+    height: 400px;
+   border-radius: 5px;
+   position: relative;
+}
+
+.card:hover{
+    opacity: 70%;
+}
+
+.card>img{
+    height: 65%;
+    width: 100%;
+    border-start-start-radius: 5px;
+}
+
+.card>h3{
+    margin: 9px 9px;
+    font-size: 26px;
+}
+
+.card>div{
+    display: flex;
+    gap:10px;
+    width: 97px;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: #FEC401;
+    padding: 5px 5px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+.card>div>img{
+
+    width: 20px;
+}
